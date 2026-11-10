@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+  --holographic: linear-gradient(135deg, #00D4FF, #D4AF37, #FF00FF);
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.holographic-border {
+  background: linear-gradient(45deg, #D4AF37, #00D4FF, #D4AF37);
+  padding: 2px;
+  border-radius: 12px;
+}
+
+.gold-text {
+  color: #D4AF37;
+}
